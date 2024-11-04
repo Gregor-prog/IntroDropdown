@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="display:grid m-6">
+   <div class="h-[30px]  flex flex-row justify-between items-center mb-10">
+        <h1 class="text-[40px] font-cursive font-bold w-5">snap</h1>
+        <div class="relative sm:static hover:block sm:w-[90%] ">
+            <div class="bg-white w-[200px] absolute h-[100vh] sm:h-auto right-0 top-[-5px] sm:static sm:w-[100%] hidden sm:flex sm:items-center sm:justify-between" id="menu">
+                <div class="flex flex-row items-center justify-end"><img src="../images/icon-close-menu.svg" alt="icon-close-menu" id="menuc" class="size-9 sm:hidden"></div>
+               <ul class="sm:flex sm:w-[100%] sm:static">
+                   <li class="p-4 text-[18px] font-semibold text-gray-500 cursor-pointer"><p class="inline-block" id="features">Features</p>
+                <img src="../images/icon-arrow-up.svg" alt="icon-arrow-up" class="inline-block" id="shh1">
+                 <ul class="pl-2 w-[100%] hidden sm:absolute sm:bg-white sm:shadow-2xl sm:w-[150px] sm:rounded-sm cursor-pointer" id="drop1">
+                    <li class="p-4 text-[18px] font-semibold"><img src="../images/icon-todo.svg" alt="" class="inline-block"> <p class="inline-block ml-2">ToDo List</p></li>
+                    <li class="p-4 text-[18px] font-semibold"><img src="../images/icon-calendar.svg" alt="" class="inline-block"><p class="inline-block ml-2">Calender</p></li>
+                    <li class="p-4 text-[18px] font-semibold"><img src="../images/icon-reminders.svg" alt="" class="inline-block"><p class="inline-block ml-2">Reminders</p></li>
+                    <li class="p-4 text-[18px] font-semibold"><img src="../images/icon-planning.svg" alt="" class="inline-block"><p class="inline-block ml-2">Planning</p></li>
+                 </ul>
+                </li>
+                   <li class="p-4 text-[18px] font-semibold text-gray-500 cursor-pointer"><p class="inline-block" id="company">Company</p>
+                    <img src="../images/icon-arrow-up.svg" alt="icon-arrow-up" class="inline-block" id="shh2">
+                    <ul id="drop2" class="hidden sm:absolute sm:bg-white sm:shadow-2xl sm:w-[150px] sm:rounded-sm cursor-pointer">
+                        <li class="p-4 text-[18px] font-semibold">History</li>
+                        <li class="p-4 text-[18px] font-semibold">Our Team</li>
+                        <li class="p-4 text-[18px] font-semibold">Blog</li>
+                    </ul>
+                </li>
+                   <li class="p-4 text-[18px] font-semibold text-gray-500 cursor-pointer "><p>Careers</p></li>
+                   <li class="p-4 text-[18px] font-semibold text-gray-500 cursor-pointer"><p>About</p></li>
+               </ul>
+               <div class="flex flex-col items-center justify-center p-5 sm:flex sm:flex-row">
+                   <button class="border-0 rounded-xl h-10 w-24 text-black font-semiboldold m-2 text-xl focus:border-2 border-solid border-black">Login</button>
+                   <button class="border-0 rounded-xl h-10 w-24 text-black font-semiboldold m-2 text-xl focus:border-2 border-solid border-black">Register</button>
+               </div>
+           </div>
+            <img src="../images/icon-menu.svg" alt="Drop-Down-menu" class="h-[30px] sm:hidden" id="menub">
+        </div>
+   </div>
+   <div class="sm:grid  sm:grid-cols-2 sm:m-20">
+        <div class="my-10 sm:hidden">
+            <img src="../images/image-hero-mobile.png" alt="hero-image-mobile">
+            
+        </div>
+        <div class="flex flex-col items-center justify-evenly sm:items-start">
+            <h1 class="text-[30px] sm:text-[60px] font-bold">Make Remote Work</h1>
+            <p class="text-gray-500 text-center sm:text-left text-[16px] mb-2 font-semibold">Get your team in sync, no matter your<br>location.
+                Streamline processes, create<br>
+                team rituals, and watch productivity soar</p>
+                <button class="w-[50%] sm:w-[30%] bg-black h-[50px] my-[30px] rounded-[12px] text-white ">Learn More</button>
+                <div class="flex flex-row justify-between items-center h-[30px] w-[100%] sm:w-[70%]">
+                    <img src="../images/client-databiz.svg" alt="client-databiz" class="w-16">
+                    <img src="../images/client-audiophile.svg" alt="client-audiophile" class="w-16">
+                    <img src="../images/client-meet.svg" alt="client-meet" class="w-16">
+                    <img src="../images/client-maker.svg" alt="client-maker" class="w-16">
+                </div>
+        </div>
+        <div>
+            <img src="../images/image-hero-desktop.png" alt="hero-image-desktop" class="hidden sm:block">
+        </div>
+    </div>
+<style>
+    
+</style>
+   <script src="script.js"></script>
+</body>
+</html>
